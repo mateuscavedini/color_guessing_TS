@@ -99,7 +99,7 @@ a:hover {
     visibility: hidden;
 }
 
-.vanish {
+.vanishAnimation {
     transition: 0.3s ease-in-out;
     opacity: 0;
     visibility: hidden;
