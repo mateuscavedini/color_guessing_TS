@@ -1,4 +1,5 @@
 import { handleClasses } from "./handleClasses"
+import { makeSqrsVisible } from "./makeSqrsVisible"
 import { setBgColor } from "./setBgColor"
 import { setDisplayTextColor } from "./setDisplayTextColor"
 import { setText } from "./setText"
@@ -17,8 +18,6 @@ export const endGame = (): void => {
     setDisplayTextColor()
 
     // makes all squares visible and paints them with the correct color
-    squares.forEach(sqr => {
-        handleClasses(sqr, "vanish", "remove")
-        setBgColor(sqr, selectedRGB)
-    })
+    makeSqrsVisible()
+    squares.forEach(sqr => setBgColor(sqr, selectedRGB))
 }

@@ -41,7 +41,7 @@ squares.forEach(sqr => {
         if (colorMatches) {
             endGame()
         } else {
-            handleClasses(sqr, "vanish", "add")
+            handleClasses(sqr, "vanishAnimation", "add")
             handleClasses(result, "hidden", "remove")
         }
     })
