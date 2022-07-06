@@ -9,6 +9,5 @@ export const setDisplayTextColor = (): void => {
     
     if (brightnessHigherThan125) {
         setTextColor(display, "black")
-        // display.style.color = "black"
     }
 }

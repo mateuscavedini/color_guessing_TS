@@ -33,24 +33,16 @@ squares.forEach(sqr => {
         return
     }
 
-    // checks if the clicked square's background color matches with the selected color. ends game if true
+    // ends game when correct color is clicked
     sqr.addEventListener("click", () => {
         const sqrBgColor: string = sqr.style.backgroundColor
         const colorMatches: boolean = checkColorMatching(sqrBgColor, selectedRGB)
         
         if (colorMatches) {
-            handleClasses(sqr, "remove", "add")
+            endGame()
+        } else {
+            handleClasses(sqr, "vanish", "add")
             handleClasses(result, "hidden", "remove")
         }
-        
-        // if (selectedRGB !== sqr.style.backgroundColor) {
-        //     handleClasses(sqr, "remove", "add")
-        //     // sqr.classList.add("remove")
-        //     handleClasses(result, "hidden", "remove")
-        //     // result.classList.remove("hidden")
-        //     return
-        // }
-
-        endGame()
     })
 })

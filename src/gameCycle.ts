@@ -4,7 +4,7 @@ import { reset } from "./reset"
 import { toggleBtnColor } from "./toggleBtnColor"
 import { toggleSqrVisibility } from "./toggleSqrVisibility"
 
-// starts game
+// starts game; base game cycle
 
 export const gameCycle = (): void => {
     reset()
