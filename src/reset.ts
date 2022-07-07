@@ -2,7 +2,7 @@ import { handleClasses } from "./handleClasses"
 import { setBgColor } from "./setBgColor"
 import { setText } from "./setText"
 import { setTextColor } from "./setTextColor"
-import { setIsOver, display, result, btnNew } from "./variables"
+import { setIsOver, display, result, btnNew } from "./globals"
 
 // resets game; default values
 

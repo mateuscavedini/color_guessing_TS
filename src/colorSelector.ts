@@ -1,5 +1,5 @@
 import { setText } from "./setText"
-import { easyMode, setSelectedRGB, squares, display } from "./variables"
+import { easyMode, setSelectedRGB, squares, display } from "./globals"
 
 // selects a random color from the generated ones
 

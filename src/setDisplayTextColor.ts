@@ -1,6 +1,6 @@
 import { checkColorBrightness } from "./checkColorBrightness"
 import { setTextColor } from "./setTextColor"
-import { display } from "./variables"
+import { display } from "./globals"
 
 // for better readability, changes the display's text color based on it's background color (Reference - W3C: https://www.w3.org/TR/AERT/#color-contrast)
 

@@ -2,7 +2,7 @@ import { checkColorMatching } from "./checkColorMatching"
 import { endGame } from "./endGame"
 import { gameCycle } from "./gameCycle"
 import { handleClasses } from "./handleClasses"
-import { btnEasy, btnHard, btnNew, isOver, result, selectedRGB, setEasyMode, squares } from "./variables"
+import { btnEasy, btnHard, btnNew, isOver, result, selectedRGB, setEasyMode, squares } from "./globals"
 
 // EventListeners
 

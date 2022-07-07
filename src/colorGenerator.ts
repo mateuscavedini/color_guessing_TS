@@ -1,5 +1,5 @@
 import { setBgColor } from "./setBgColor"
-import { squares } from "./variables"
+import { squares } from "./globals"
 
 // generates random background colors for all squares
 

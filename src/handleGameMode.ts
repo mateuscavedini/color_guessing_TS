@@ -1,6 +1,6 @@
 import { handleClasses } from "./handleClasses"
 import { makeSqrsVisible } from "./makeSqrsVisible"
-import { btnEasy, btnHard, easyMode, hardSquares } from "./variables"
+import { btnEasy, btnHard, easyMode, hardSquares } from "./globals"
 
 export const handleGameMode = (): void => {
     if (easyMode) {

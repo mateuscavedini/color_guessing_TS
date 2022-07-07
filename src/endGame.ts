@@ -3,7 +3,7 @@ import { makeSqrsVisible } from "./makeSqrsVisible"
 import { setBgColor } from "./setBgColor"
 import { setDisplayTextColor } from "./setDisplayTextColor"
 import { setText } from "./setText"
-import { btnNew, display, result, selectedRGB, setIsOver, squares } from "./variables"
+import { btnNew, display, result, selectedRGB, setIsOver, squares } from "./globals"
 
 // ends game
 

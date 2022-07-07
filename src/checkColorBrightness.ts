@@ -1,4 +1,4 @@
-import { selectedRGB } from "./variables"
+import { selectedRGB } from "./globals"
 
 // checks the color brightness of the selected color, in order to choose the best readable text color
 
